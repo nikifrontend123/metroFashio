@@ -87,7 +87,7 @@
         </div>
 
         <div id="mobile bottomNav">
-            <div class="bnav d-md-none d-block ">
+            <div class="bnav d-md-none d-block h-100">
                 <div class="bottom-nav w-100 position-fixed " style="bottom: 0;">
                     <!-- <div class="icons d-flex justify-content-between ">
                         <div class="icon text-center text-white ">
@@ -196,7 +196,6 @@
                             </div>
                         </Transition>
                     </div>
-
                 </div>
             </div>
         </div>

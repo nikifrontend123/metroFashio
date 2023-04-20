@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-light w-100 h-100 ">
+    <div class=" w-100 h-100 ">
 
         <div class="main container d-block w-100  d-md-flex ">
             <div class="left ">
@@ -38,7 +38,8 @@
                     </div>
                 </div>
             </div>
-            <div class="right w-100 px-2  bg-light" style="margin-bottom: 80px;">
+            <div class="right w-100 px-2 pt-2"  >
+            <div class=" " >
                 <form @submit="update" method="post">
                     <TextInputs name="Assignee Code" type="text" design="floating" v-model="form.Code" />
                     <TextInputs name="Full Name" type="text" design="floating" v-model="form.Name" />
@@ -57,6 +58,7 @@
                     </div>
                 </form>
             </div>
+        </div>
         </div>
     </div>
 </template>
@@ -108,9 +110,9 @@ export default {
 <style  scoped>
 @media only screen and (max-width: 600px) {
     .right{
-    position: absolute;
+    position: relative;
     z-index: -1;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
     
 }
 }

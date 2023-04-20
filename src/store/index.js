@@ -396,7 +396,35 @@ const store = createStore({
                 time: "6h"
             },
             {
-                id: 1,
+                id: 2,
+                imgl: "src/assets/c1.jpg",
+                txt: "New catelog is been added to system.",
+                tag: "23826 | Botton TOP",
+                time: "17h"
+            },
+            {
+                id: 3,
+                imgl: "src/assets/c1.jpg",
+                txt: "New catelog is been added to system.",
+                tag: "23826 | Botton TOP",
+                time: "17h"
+            },
+            {
+                id: 4,
+                imgl: "src/assets/c1.jpg",
+                txt: "New catelog is been added to system.",
+                tag: "23826 | Botton TOP",
+                time: "17h"
+            },
+            {
+                id: 5,
+                imgl: "src/assets/c1.jpg",
+                txt: "New catelog is been added to system.",
+                tag: "23826 | Botton TOP",
+                time: "17h"
+            },
+            {
+                id: 6,
                 imgl: "src/assets/c1.jpg",
                 txt: "New catelog is been added to system.",
                 tag: "23826 | Botton TOP",
