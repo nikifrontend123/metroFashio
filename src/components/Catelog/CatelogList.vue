@@ -1,5 +1,5 @@
 <template>
-    <div >
+    <div>
         <div class="first w-100 h-100 ">
             <div class="box w-100 shadow p-2 d-block d-md-flex justify-content-center ">
                 <TextInputs class="w-100 " name="Search Catelog By name, tags ..." type="text" design="floating" />
@@ -21,11 +21,11 @@
         <div class="list container  w-100 justify-content-center align-items-center mt-3" style="padding-bottom: 80px;">
             <div v-for="list in lists" class="">
                 <div class="btnlist w-100">
-                    <div class="border-none cursor-pointer d-flex justify-content-center w-100 " @click="showCatelog(list)"><img
-                            :src="list.imgl" alt=""></div>
+                    <div class="border-none cursor-pointer d-flex justify-content-center w-100 " @click="showCatelog(list)">
+                        <img :src="list.imgl" alt=""></div>
                 </div>
             </div>
-             <!-- Modal -->
+            <!-- Modal -->
             <div v-if="Object.keys(activeCatelog).length !== 0">
                 <div class="offcanvas offcanvas-end show" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
                     aria-labelledby="staticBackdropLabel">
@@ -246,7 +246,8 @@ export default {
         height: 300px;
         /* overflow: auto; */
     }
-    .btnsar{
+
+    .btnsar {
         margin-top: 10px;
     }
 }

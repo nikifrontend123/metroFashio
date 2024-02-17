@@ -1,16 +1,16 @@
 <template>
-     <div class="order pt-5">
+     <div class="order" style="padding-bottom: 60px;">
 
 <section class="py-4">
    <div class="container">
     <div class="row">
-        <div class="col-md-6 col-lg-6 py-2"><div class="float-start"><span><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="40" height="40" x="0" y="0" viewBox="0 0 64 64" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M60 30H8.83l8.58-8.59a2 2 0 0 0-2.82-2.82l-12 12a2.06 2.06 0 0 0-.59 1.8 2.16 2.16 0 0 0 .55 1l12 12a2 2 0 1 0 2.82-2.82L8.83 34H60a2 2 0 0 0 0-4z" data-name="Layer 27" fill="#000000" data-original="#000000" class=""></path></g></svg></span><span class="ps-2"><b>Create New Order Details</b></span></div></div>
+        <div class="col-md-6 col-lg-6 "><div class="float-start"><span><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="40" height="40" x="0" y="0" viewBox="0 0 64 64" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M60 30H8.83l8.58-8.59a2 2 0 0 0-2.82-2.82l-12 12a2.06 2.06 0 0 0-.59 1.8 2.16 2.16 0 0 0 .55 1l12 12a2 2 0 1 0 2.82-2.82L8.83 34H60a2 2 0 0 0 0-4z" data-name="Layer 27" fill="#000000" data-original="#000000" class=""></path></g></svg></span><span class="ps-2"><b>Create New Order Details</b></span></div></div>
     </div>
    <div class="row">
    <div class="col-md-6 col-lg-6">
     <form action="" method="post" style="text-align: left;">
             <div class="row">
-                <div class="col-md-12 col-lg-12 mb-3">
+                <div class="col-md-12 col-lg-12 mb-2">
                     <select class="form-select form-select-lg" name="" id="">
                         <option selected>Select Catelog</option>
                         <option value="">One</option>
@@ -18,28 +18,28 @@
                         <option value="">Three</option>
                     </select>
                 </div>
-                <div class="col-md-6 col-lg-6 mb-3">
+                <div class="col-md-6 col-lg-6 mb-2">
                   <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Quantity">
                 </div>
-                <div class="col-md-6 col-lg-6 mb-3">
+                <div class="col-md-6 col-lg-6 mb-2">
                   <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Color">
                 </div>
-                <div class="col-md-3 col-lg-3 mb-3">
+                <div class="col-md-3 col-lg-3 mb-2">
                   <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="S">
                 </div>
-                <div class="col-md-3 col-lg-3 mb-3">
+                <div class="col-md-3 col-lg-3 mb-2">
                   <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="M">
                 </div>
-                <div class="col-md-3 col-lg-3 mb-3">
+                <div class="col-md-3 col-lg-3 mb-2">
                   <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="L">
                 </div>
-                <div class="col-md-3 col-lg-3 mb-3">
+                <div class="col-md-3 col-lg-3 mb-2">
                   <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="XL">
                 </div>
-                <div class="col-md-12 col-lg-12 mb-3">
+                <div class="col-md-12 col-lg-12 mb-2">
                   <input type="date" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Expected Delivery date">
                 </div>
-                <div class="col-md-12 col-lg-12 mb-3">
+                <div class="col-md-12 col-lg-12 mb-2">
                   <input type="password" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Password">
                 </div>
                 

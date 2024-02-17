@@ -38,7 +38,7 @@
                     </div>
                 </div>
             </div>
-            <div class="right w-100 px-2 pt-2"  >
+            <div class="right w-100 px-2"  >
             <div class=" " >
                 <form @submit="update" method="post">
                     <TextInputs name="Assignee Code" type="text" design="floating" v-model="form.Code" />

@@ -30,10 +30,10 @@
             </div>
         </div>
         <div class="d-flex justify-content-center" style="padding-bottom: 80px;">
-        <div class="sec d-block d-md-grid  justify-content-evenly mt-3 "
-            style="width: 80; grid-template-columns: 1fr 1fr 1fr 1fr;">
-            <div v-for="user in users" class=" w-100 box bg-white shadow p-2 border " style="width: 400px;">
-                <div class="top d-flex  ">
+        <div class="d-block d-md-grid justify-content-evenly mt-3 "
+            style=" grid-template-columns: 1fr 1fr 1fr;">
+            <div v-for="user in users" class="bg-white shadow p-2 border m-1 container ">
+                <div class=" d-flex  ">
                     <div class="left me-2">
                         <img style="width: 100px; height: 100px;" :src="user.imgu" alt="">
                     </div>
@@ -46,9 +46,9 @@
                 <div class="bottom mt-3 d-flex">
                     <div class="btn-3 d-flex w-100">
                         <button style="font-size: 13px;" class="btn btn-light w-100 border"><i class="bi bi-telephone "></i>
-                            Make a Call</button>
+                            Call</button>
                         <button style="font-size: 13px;" class="btn btn-light w-100 border"><i class="bi bi-whatsapp "></i>
-                            Send message</button>
+                            Message</button>
                         <RouterLink class="w-100  d-flex justify-content-center" style="text-decoration: none;" to="/CreateMember">
                             <button style="font-size: 13px;" class="btn btn-warning w-100 border"><i
                                     class="bi bi-shield-check "></i> Edit</button>

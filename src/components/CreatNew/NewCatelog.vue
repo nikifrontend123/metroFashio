@@ -1,7 +1,7 @@
 <template>
-    <div class="catelog">
+    <div class="catelog" style="padding-bottom: 70px;">
       
-      <section class="py-4" style="padding-bottom: 5em;">
+      <section class="">
            <div class="container">
             <div class="row">
                 <div class="col-8 col-md-6 col-lg-6 py-2 m-auto"><div class="float-start"><span><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="40" height="40" x="0" y="0" viewBox="0 0 64 64" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M60 30H8.83l8.58-8.59a2 2 0 0 0-2.82-2.82l-12 12a2.06 2.06 0 0 0-.59 1.8 2.16 2.16 0 0 0 .55 1l12 12a2 2 0 1 0 2.82-2.82L8.83 34H60a2 2 0 0 0 0-4z" data-name="Layer 27" fill="#000000" data-original="#000000" class=""></path></g></svg></span><span class="ps-2"><b>Create New Catelog</b></span></div></div>
@@ -9,40 +9,40 @@
             </div>
             <form action="" method="post" style="text-align: left;">
                     <div class="row">
-                        <div class="col-md-12 col-lg-12 mb-3">
+                        <div class="col-md-12 col-lg-12 mb-2">
                           <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Catelog Name" required>
                         </div>
-                        <div class="col-md-6 col-lg-6 mb-3">
+                        <div class="col-md-6 col-lg-6 mb-2">
                           <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Artic No." required>
                         </div>
-                        <div class="col-md-6 col-lg-6 mb-3">
+                        <div class="col-md-6 col-lg-6 mb-2">
                           <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Sale Price" required>
                         </div>
-                        <div class="col-md-6 col-lg-6 mb-3">
+                        <div class="col-md-6 col-lg-6 mb-2">
                           <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Panna(inch)" required>
                         </div>
-                        <div class="col-md-6 col-lg-6 mb-3">
+                        <div class="col-md-6 col-lg-6 mb-2">
                           <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Fabric Name" required>
                         </div>
-                        <div class="col-md-6 col-lg-6 mb-3">
+                        <div class="col-md-6 col-lg-6 mb-2">
                           <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Fc/unit" required>
                         </div>
-                        <div class="col-md-6 col-lg-6 mb-3">
+                        <div class="col-md-6 col-lg-6 mb-2">
                           <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Unit" required>
                         </div>
-                        <div class="col-md-12 col-lg-12 mb-3">
+                        <div class="col-md-12 col-lg-12 mb-2">
                           <textarea class="form-control" placeholder="" name="" id="" rows="3" required>Search Tags</textarea>
                           <small id="helpId" class="form-text text-muted">Help text</small>
                         </div>
-                        <div class="col-md-12 col-lg-12 mb-3">
+                        <div class="col-md-12 col-lg-12 mb-2">
                           <textarea class="form-control" placeholder="" name="" id="" rows="3" required>Note for reference</textarea>
                           <small id="helpId" class="form-text text-muted">Help text</small>
                         </div>
-                        <div class="col-md-12 col-lg-12 mb-3">
+                        <div class="col-md-12 col-lg-12 mb-2">
                           <textarea class="form-control" placeholder="" name="" id="" rows="3" required>Instructions for fabricator</textarea>
                           <small id="helpId" class="form-text text-muted">Help text</small>
                         </div>
-                        <div class="col-md-12 col-lg-12 mb-3">
+                        <div class="col-md-12 col-lg-12 mb-2">
                             <select class="form-select form-select-lg" name="" id="" required>
                                 <option selected>Select Defauit Assignee</option>
                                 <option value="">One</option>
@@ -50,7 +50,7 @@
                                 <option value="">Three</option>
                             </select>
                         </div>
-                        <div class="col-md-12 col-lg-12 mb-3">
+                        <div class="col-md-12 col-lg-12 mb-2">
                             <select class="form-select form-select-lg" name="" id="" required>
                                 <option selected>Narender</option>
                                 <option value="">One</option>
@@ -58,25 +58,25 @@
                                 <option value="">Three</option>
                             </select>
                         </div>
-                        <div class="col-md-12 col-lg-12 mb-3">
+                        <div class="col-md-12 col-lg-12 mb-2">
                         <div class="form-check">
                           <label for="">Toggle Catelog Assess</label>
                           <input class="form-check-input" type="checkbox" value="" id="" required>
                           <label class="form-check-label" for="">Access Blocked</label>
                         </div>
                         </div>
-                        <div class="col-md-6 col-lg-6 mb-3">
+                        <div class="col-md-6 col-lg-6 mb-2">
                           <label for="" class="form-label">Upload Image</label>
                           <input type="file" class="form-control" name="" id="" placeholder="" aria-describedby="fileHelpId" required>
                         </div>
-                        <div class="col-md-6 col-lg-6 mb-3">
+                        <div class="col-md-6 col-lg-6 mb-2">
                           <label for="" class="form-label">Upload PDF</label>
                           <input type="file" class="form-control" name="" id="" placeholder="" aria-describedby="fileHelpId" required>
                         </div>
-                        <div class="col-md-6 col-lg-6 mb-3">
+                        <div class="col-md-6 col-lg-6 mb-2">
                             <div><a name="" id="" class="btn btn-outline-primary w-100" href="#" role="button">Reset Felids</a></div>
                         </div>
-                        <div class="col-md-6 col-lg-6 mb-3">
+                        <div class="col-md-6 col-lg-6 mb-2">
                             <div><a name="" id="" class="btn btn-primary w-100" href="#" role="button">Save Details</a></div>
                         </div>
                     </div>
